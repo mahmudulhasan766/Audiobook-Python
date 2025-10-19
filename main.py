@@ -6,7 +6,7 @@ pages = pdfreader.numPages
 print(pages)
 
 friend = pyttsx3.init()
-fot(int i; )
+
 
 for p in range(7, 14):
     page = pdfreader.getPage(p)
