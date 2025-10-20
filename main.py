@@ -29,9 +29,12 @@ address1 = "vill:x, post:t, dist:z"
 print(name, address, address1)
 
 firstNum = 10
-for x in range(0, 2):
+s = 0
+for x in range(0, 10):
     secondNum = input('SecondNum: ')
-    print("Sum: ", firstNum + int(secondNum))
+    s= s+x
+    print("index: ", x,s)
+    print("Sum: ", firstNum + int(secondNum),x)
     if firstNum >= int(secondNum):
         print("valid number")
     else:
