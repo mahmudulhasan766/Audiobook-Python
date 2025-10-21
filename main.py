@@ -73,3 +73,13 @@ charList = ["A","B","C","D","E","F"]
 print("Character", charList[1])
 for char in charList:
     print(char)
+
+#Function and Method
+
+def addTwoNumbers(num1, num2):
+    return num1 + num2
+q = int(input())
+w = int(input())
+
+result = addTwoNumbers(q, w)
+print("add to number",result)
