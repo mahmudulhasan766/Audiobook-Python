@@ -67,3 +67,9 @@ while j<100:
     j +=1
 print("SumA: ", sumA)
 print("SumB: ", sumA)
+
+# list
+charList = ["A","B","C","D","E","F"]
+print("Character", charList[1])
+for char in charList:
+    print(char)
