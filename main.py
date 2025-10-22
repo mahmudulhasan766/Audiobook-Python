@@ -1,5 +1,5 @@
 from selectors import SelectSelector
-
+"""
 import pyttsx3
 import PyPDF2
 
@@ -83,3 +83,22 @@ w = int(input())
 
 result = addTwoNumbers(q, w)
 print("add to number",result)
+"""
+
+listCharacter = ['A','B','C','D','E','F']
+print("Character last char:", listCharacter[-1])
+print("Character first char:", listCharacter[1])
+print("Character range(C,D) char:", listCharacter[2:4])
+print("Character first 2 char:", listCharacter[:2])
+print("Character after 2 char:", listCharacter[2:])
+print("Character remove last 2 char:", listCharacter[:-2])
+print("Character after 2 char:", listCharacter[-2:])
+for char in listCharacter:
+    print(char)
+
+max_value = max(listCharacter)
+min_value = min(listCharacter)
+print("\nMax: ", max_value)
+print("Min: ", min_value)
+listNum = [1,2,3,4,5,6,7,8,9]
+print("Sum Of List:",sum(listNum))
