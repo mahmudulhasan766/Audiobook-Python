@@ -102,3 +102,16 @@ print("\nMax: ", max_value)
 print("Min: ", min_value)
 listNum = [1,2,3,4,5,6,7,8,9]
 print("Sum Of List:",sum(listNum))
+#max number
+maxNum = listNum[0]
+for num in listNum:
+    if num > maxNum:
+        maxNum = num
+print("Max: ", maxNum)
+
+#min number
+minNum = listNum[0]
+for num in listNum:
+    if num < minNum:
+        minNum = num
+print("Min: ", minNum)
